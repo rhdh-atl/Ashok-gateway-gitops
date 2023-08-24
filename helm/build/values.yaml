@@ -1,0 +1,15 @@
+app:
+  name: Ashok-poi-gateway-app
+  namespace: Ashok
+  cluster: .apps.j0i9yf30.eastus2.aroapp.io
+
+git:
+  branch: main
+  repo: https://github.com/rhdh-atl/Ashok-gateway
+  org: rhdh-atl
+  name: Ashok-gateway
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: Ashok/poi-gateway-app
+  tag: latest
